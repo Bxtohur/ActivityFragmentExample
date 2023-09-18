@@ -49,7 +49,13 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    //Navigation
     implementation ("androidx.navigation:navigation-fragment-ktx:2.7.2")
     implementation ("androidx.navigation:navigation-ui-ktx:2.7.2")
+    //image loader
     implementation("io.coil-kt:coil:2.4.0")
+    // rv
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
+    //fragment ktx
+    implementation("androidx.fragment:fragment-ktx:1.6.1")
 }
